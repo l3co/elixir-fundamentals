@@ -95,3 +95,13 @@ sort_list = :lists.sort(phones)
 for phone <- sort_list do
   IO.puts("Phone #{phone}")
 end
+
+IO.puts("================================================")
+
+# put element into list
+
+new_list = [:nokia | phones]
+
+for phone <- new_list do
+  IO.puts("Phone #{phone}")
+end
